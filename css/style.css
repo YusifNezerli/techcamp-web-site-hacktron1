@@ -1,0 +1,163 @@
+.fon{
+    background-image: url(./img/banner.jpg);
+      background-size: cover;
+}
+.fon2{
+    background-image: url(./img/banner.jpg);
+    background-size: contain;
+    width: auto;
+    padding-top: 75px;
+}
+.welcome{
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    color: azure;
+}
+.info{
+  text-align: justify;
+  color: azure;
+  font-family: sans-serif;
+  padding: 80px 0 0 190px;
+
+}
+
+.info-text{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: auto;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:azure;
+    color: rgb(26, 0, 99);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: transform .3s ease-out;
+}
+  
+#myBtn:hover {
+    background-color: azure;
+    transform: scale(1.1);  
+
+}    
+.topicon{
+    width: 70px;
+    margin: -26px 0 0 -25px;
+}
+.link{
+    background-color: transparent;
+    color:azure;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 30px;
+    text-align: left;
+    border-color: azure;
+    border: 1px solid white;
+}
+.link span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.link span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.link:hover span {
+    padding-right: 25px; 
+}
+  
+.link:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.cardimage{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.cardimage2{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.cardimage3{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.cardimage4{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.cardimage5{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.cardimage6{
+    border-radius: 8px;
+    width: 369.6px;
+    height: 225px;
+}
+.logo-icon-footer{
+    width: 120px;
+}
+
+.wrapper div {
+    display: inline;
+}
+
+.wrapper div a{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    font-size: 20px;
+    color: rgb(71, 11, 234);
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .facebook a:hover{
+    background: #ffffff;
+}
+.wrapper .instagram a:hover{
+    background: #ffffff;
+}
+.wrapper .linkedin a:hover{
+    background: #ffffff;
+}
+.wrapper a:hover > i{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
+.wrapper a i{
+    transition: 0.4s all;
+}

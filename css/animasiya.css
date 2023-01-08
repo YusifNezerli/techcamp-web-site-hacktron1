@@ -1,0 +1,20 @@
+.animasiya1{
+    display: inline-block;
+    padding-bottom: 0.10rem;
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.animasiya1::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.25s ease-out;
+}
+.animasiya1:hover::before{
+    width: 100%;
+}
